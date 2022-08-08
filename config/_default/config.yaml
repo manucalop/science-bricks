@@ -4,8 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'Science Bricks' # Website name
-# baseURL: "https://sciencebricks.ai/"
-baseURL: "https://manucalop.github.io/science-bricks/"
+baseURL: "https://sciencebricks.ai/"
+# baseURL: "https://manucalop.github.io/science-bricks/"
 
 ############################
 ## PAGE OPTIONS
