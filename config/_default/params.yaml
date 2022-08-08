@@ -18,10 +18,10 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Learn Science. One Brick at a Time.'
+    twitter: 'manucalop'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-N7QBCDRCZF'
     baidu_tongji: ''
   verification:
     google: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Manuel Castillo-Lopez. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -62,14 +62,13 @@ features:
   syntax_highlighter:
     enable: true
     extra_languages:
-      - r
       - latex
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/wowchemy/starter-hugo-online-course'
+    url: 'https://github.com/manucalop'
     content_dir: content
     branch: main
   comment:
