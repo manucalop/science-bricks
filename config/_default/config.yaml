@@ -3,8 +3,23 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: 'Science Bricks' # Website name
+baseURL: "https://sciencebricks.ai/"
+
+############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  # Docs folder options
+  - _target:
+      path: /course/**
+    editable: true
+    show_breadcrumb: true
+  # Blog post folder options
+  - _target:
+      path: /post/**
+    show_related: true
 
 ############################
 ## LANGUAGE
@@ -37,10 +52,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
+  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -53,7 +67,6 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
-  publication_type: publication_types
   author: authors
 markup:
   _merge: deep

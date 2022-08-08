@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: custom
+  theme_night:
   font: minimal
   font_size: L
 
@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -55,7 +55,6 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
 
 # Site features
 
@@ -70,12 +69,9 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/wowchemy/starter-hugo-online-course'
     content_dir: content
-    branch: master
-  avatar:
-    gravatar: false
-    shape: circle
+    branch: main
   comment:
     provider: ''
     disqus:
@@ -90,22 +86,10 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-# Extensions
 
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
-    enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+    enable: false
