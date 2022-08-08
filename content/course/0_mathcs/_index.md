@@ -31,4 +31,4 @@ In an ever-changing world, two constants stay: Mathematics and Computer Science.
 {{< list_children >}}
 
 
-{{< cta cta_text="Begin the course" cta_link="python" >}}
+{{< cta cta_text="Begin the course" cta_link="logic" >}}
