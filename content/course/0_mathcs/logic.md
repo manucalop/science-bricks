@@ -5,6 +5,7 @@ type: book
 weight: 20
 ---
 
+
 ## WIP
 
 Propositional Logic is the basic language upon which all modern Mathematics can be built. Its key notion is a proposition.
@@ -43,6 +44,26 @@ T & F & T & T & F
 \end{array}
 $$
 {{< /math >}}
+
+In python the NOT operator is already implemented. Play with this code:
+
+```python
+p = True
+print(not(p))
+```
+
+<iframe 
+    src="https://trinket.io/embed/python3" 
+    width="100%" 
+    height="356" 
+    frameborder="0" 
+    marginwidth="0" 
+    marginheight="0" 
+    allowfullscreen
+    input="foo"
+    >
+</iframe>
+
 
 One can quickly check that, if $p$ can only be true or false, these operators cover all the possibilities to define a unary operator. The next step is to consider binary operators, i.e. operators that take two propositions and return a new one. We have 16 binary operators in total, but we draw some interesting ones in the following table:
 
@@ -90,6 +111,8 @@ $$
 We can prove assertions by way of contradiction. E.g. assume that $p$ is true and we want to prove that $q$ is true. Then, what we can do instead, and is fully equivalent, is to assume that what we want to prove is not true, and then prove that the assumption is not true. Then we say we have a contradiction and $q$ must have been true.
 
 ## Predicate Logic
+
+
 
 ## Quiz
 
