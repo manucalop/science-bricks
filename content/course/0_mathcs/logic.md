@@ -286,22 +286,22 @@ $$
 
 TODO
 
-## Quiz
+<!-- ## Quiz -->
 
-{{< spoiler text="What is the difference between lists and tuples?" >}}
-Lists
+<!-- {{< spoiler text="What is the difference between lists and tuples?" >}} -->
+<!-- Lists -->
 
-- Lists are mutable - they can be changed
-- Slower than tuples
-- Syntax: `a_list = [1, 2.0, 'Hello world']`
+<!-- - Lists are mutable - they can be changed -->
+<!-- - Slower than tuples -->
+<!-- - Syntax: `a_list = [1, 2.0, 'Hello world']` -->
 
-Tuples
+<!-- Tuples -->
 
-- Tuples are immutable - they can't be changed
-- Tuples are faster than lists
-- Syntax: `a_tuple = (1, 2.0, 'Hello world')`
-  {{< /spoiler >}}
+<!-- - Tuples are immutable - they can't be changed -->
+<!-- - Tuples are faster than lists -->
+<!-- - Syntax: `a_tuple = (1, 2.0, 'Hello world')` -->
+<!--   {{< /spoiler >}} -->
 
-{{< spoiler text="Is Python case-sensitive?" >}}
-Yes
-{{< /spoiler >}}
+<!-- {{< spoiler text="Is Python case-sensitive?" >}} -->
+<!-- Yes -->
+<!-- {{< /spoiler >}} -->
