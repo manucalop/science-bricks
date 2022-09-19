@@ -257,7 +257,7 @@ The NAND operator is **functional complete**, which allows
 
 <!-- From the implication operator $(\Rightarrow)$, one can conclude anything based on false assumptions, also known as ''ex falso quodlibet''. -->
 
-As an immediate consequence of the implication operator $(\Rightarrow)$ is that **assertions can be proven by contradiction**.
+An immediate consequence of the implication operator $(\Rightarrow)$ is that **assertions can be proven by contradiction**.
 
 Let's assume that we want to prove that the proposition $q$ is True from the assumption that $p$ is True. Then, we can equivalently assume that $q$ is false and prove that $p$ must be False, which contradicts the original assumption that $p$ is True. Mathematically:
 
@@ -283,6 +283,10 @@ $$
 {{</math>}}
 
 ## Predicate Logic
+
+_A **predicate** is a "function" that takes proposition(s) and returns True or False._
+
+_A **relation** is a predicate of **two** propositions._
 
 TODO
 
